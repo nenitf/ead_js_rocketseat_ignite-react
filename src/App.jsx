@@ -1,5 +1,12 @@
 import { RepositoryList } from './components/RepositoryList'
+import { Contador } from './components/Contador'
+
 
 export function App(){
-  return <RepositoryList />
+  return (
+    <>
+    <RepositoryList />
+    <Contador />
+    </>
+  )
 }
