@@ -1,6 +1,5 @@
-import React from 'react'
+import './styles/global.css'
 
 export function App(){
-  throw new Error("aaa")
   return <h2>Hello</h2>
 }
